@@ -1,1 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T07:49:14.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.2.4" etag="3ngF9Jjyba08efw_Ux4o" type="github"><diagram id="j97DrZ52LQ3xDvvoWrNa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-10T08:55:09.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="IAXdxhuZElh9AC78ecUU" version="20.2.4" type="github">
+  <diagram id="j97DrZ52LQ3xDvvoWrNa" name="第 1 页">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z1KEAQWYBLkrupUP75vy-5" value="请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z1KEAQWYBLkrupUP75vy-1" target="z1KEAQWYBLkrupUP75vy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z1KEAQWYBLkrupUP75vy-1" value="crm web" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z1KEAQWYBLkrupUP75vy-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z1KEAQWYBLkrupUP75vy-2" target="z1KEAQWYBLkrupUP75vy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z1KEAQWYBLkrupUP75vy-2" value="crm data" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#00CCCC;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z1KEAQWYBLkrupUP75vy-3" value="portal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z1KEAQWYBLkrupUP75vy-9" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1KEAQWYBLkrupUP75vy-7" target="z1KEAQWYBLkrupUP75vy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z1KEAQWYBLkrupUP75vy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="z1KEAQWYBLkrupUP75vy-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z1KEAQWYBLkrupUP75vy-11" value="获取channel 列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z1KEAQWYBLkrupUP75vy-10">
+          <mxGeometry x="-0.3" y="3" relative="1" as="geometry">
+            <mxPoint x="33" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z1KEAQWYBLkrupUP75vy-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z1KEAQWYBLkrupUP75vy-7" target="z1KEAQWYBLkrupUP75vy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z1KEAQWYBLkrupUP75vy-7" value="需要channeName" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="470" y="230" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z1KEAQWYBLkrupUP75vy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1KEAQWYBLkrupUP75vy-12" target="z1KEAQWYBLkrupUP75vy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z1KEAQWYBLkrupUP75vy-12" value="组装channelName" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="455" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
