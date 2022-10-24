@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T01:55:36.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="8CM3M-NX1t_IhHrix39Q" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T02:28:50.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GIRf20xxJ5Uc_jY3A0-M" version="20.4.0" type="github">
   <diagram id="p1AXJYc_SpONw6VFGxzo" name="第 1 页">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="GB9RlgLRgatuVVAukmtW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-1" target="GB9RlgLRgatuVVAukmtW-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GB9RlgLRgatuVVAukmtW-1" value="生成一条添加批次任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GB9RlgLRgatuVVAukmtW-1" value="生成一条添加批次的任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="320" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-5" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-2" target="GB9RlgLRgatuVVAukmtW-4">
@@ -39,6 +39,14 @@
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-26" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-12" target="GB9RlgLRgatuVVAukmtW-25">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GB9RlgLRgatuVVAukmtW-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-12" target="GB9RlgLRgatuVVAukmtW-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="810" />
+              <mxPoint x="30" y="1460" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-12" value="生成了满足该数量的mac地址" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="770" width="120" height="80" as="geometry" />
@@ -78,7 +86,7 @@
         <mxCell id="GB9RlgLRgatuVVAukmtW-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-30" target="GB9RlgLRgatuVVAukmtW-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GB9RlgLRgatuVVAukmtW-30" value="回滚crm的数据库操作并添加非正常返回的错误信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="GB9RlgLRgatuVVAukmtW-30" value="回滚crm的数据库操作" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-33" target="GB9RlgLRgatuVVAukmtW-24">
@@ -91,17 +99,17 @@
         <mxCell id="GB9RlgLRgatuVVAukmtW-33" value="将错误信息添加到任务描述中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GB9RlgLRgatuVVAukmtW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-35" target="GB9RlgLRgatuVVAukmtW-1">
+        <mxCell id="GB9RlgLRgatuVVAukmtW-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-35" target="GB9RlgLRgatuVVAukmtW-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-35" value="添加批次" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="-60" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="-170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-37" target="GB9RlgLRgatuVVAukmtW-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-37" value="brand operator进入crm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="-180" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="-290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-39" target="GB9RlgLRgatuVVAukmtW-24">
           <mxGeometry relative="1" as="geometry" />
@@ -109,14 +117,8 @@
         <mxCell id="GB9RlgLRgatuVVAukmtW-39" value="添加任务的描述信息为success" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GB9RlgLRgatuVVAukmtW-45" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="1210" as="sourcePoint" />
-            <mxPoint x="580" y="1180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-46" value="endUser需要校验mac的唯一性（同一个brandId下面mac不可重复），如果收到的mac在该brand下面已经存在了，返回失败并将失败信息标注为mac repeat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="590" y="1115" width="150" height="130" as="geometry" />
+          <mxGeometry x="580" y="1115" width="150" height="130" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-47" value="生成mac算法：&lt;br&gt;从0001开始依次新增到足够数量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="590" y="497.5" width="140" height="65" as="geometry" />
@@ -157,6 +159,19 @@
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-53" value="校验通过" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GB9RlgLRgatuVVAukmtW-57" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-14" target="GB9RlgLRgatuVVAukmtW-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="540" as="sourcePoint" />
+            <mxPoint x="710" y="710" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GB9RlgLRgatuVVAukmtW-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-58" target="GB9RlgLRgatuVVAukmtW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GB9RlgLRgatuVVAukmtW-58" value="开启异步线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-50" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
