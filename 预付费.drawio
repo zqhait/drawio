@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T06:00:29.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="t8SyFzNWQvuwUQz53-2s" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T06:31:56.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="vQtFbUTioToxQ1860TFE" version="20.4.0" type="github">
   <diagram id="p1AXJYc_SpONw6VFGxzo" name="第 1 页">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -152,6 +152,15 @@
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-79" value="调用endUser接口，将设备信息一次性(最大5w)发送到endUser" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GB9RlgLRgatuVVAukmtW-84" value="添加批次" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GB9RlgLRgatuVVAukmtW-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-86" target="GB9RlgLRgatuVVAukmtW-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GB9RlgLRgatuVVAukmtW-86" value="brand operator进入crm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1840" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
