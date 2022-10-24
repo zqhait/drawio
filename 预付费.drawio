@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T02:28:50.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GIRf20xxJ5Uc_jY3A0-M" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T02:36:23.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Eq5KABsDdWFQNO58992X" version="20.4.0" type="github">
   <diagram id="p1AXJYc_SpONw6VFGxzo" name="第 1 页">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
         <mxCell id="GB9RlgLRgatuVVAukmtW-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-14" target="GB9RlgLRgatuVVAukmtW-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GB9RlgLRgatuVVAukmtW-14" value="调用endUser接口，将生成的mac地址一次性(最大5w)发送到endUser" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="GB9RlgLRgatuVVAukmtW-14" value="调用endUser接口，将设备信息一次性(最大5w)发送到endUser" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-23" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-20" target="GB9RlgLRgatuVVAukmtW-39">
@@ -117,7 +117,7 @@
         <mxCell id="GB9RlgLRgatuVVAukmtW-39" value="添加任务的描述信息为success" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GB9RlgLRgatuVVAukmtW-46" value="endUser需要校验mac的唯一性（同一个brandId下面mac不可重复），如果收到的mac在该brand下面已经存在了，返回失败并将失败信息标注为mac repeat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="GB9RlgLRgatuVVAukmtW-46" value="endUser需要校验mac的唯一性（同一个brandId下面mac不可重复），如果收到的mac在该brand下面已经存在了，返回失败并将已经存在的设备信息返回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="580" y="1115" width="150" height="130" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-47" value="生成mac算法：&lt;br&gt;从0001开始依次新增到足够数量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
