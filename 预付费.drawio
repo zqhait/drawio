@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T01:50:14.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="EYJNjt0sMrKq78_yCpRt" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T01:55:36.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="8CM3M-NX1t_IhHrix39Q" version="20.4.0" type="github">
   <diagram id="p1AXJYc_SpONw6VFGxzo" name="第 1 页">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GB9RlgLRgatuVVAukmtW-33" value="添加任务的描述信息为endUser返回的错误信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="GB9RlgLRgatuVVAukmtW-33" value="将错误信息添加到任务描述中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-35" target="GB9RlgLRgatuVVAukmtW-1">
@@ -133,8 +133,30 @@
         <mxCell id="GB9RlgLRgatuVVAukmtW-49" value="将设备信息通过excel导入" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GB9RlgLRgatuVVAukmtW-51" value="校验（）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="GB9RlgLRgatuVVAukmtW-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-51" target="GB9RlgLRgatuVVAukmtW-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GB9RlgLRgatuVVAukmtW-51" value="校验（字段长度，字段范围，设备唯一性）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GB9RlgLRgatuVVAukmtW-55" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-53" target="GB9RlgLRgatuVVAukmtW-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GB9RlgLRgatuVVAukmtW-56" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GB9RlgLRgatuVVAukmtW-53" target="GB9RlgLRgatuVVAukmtW-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="530" />
+              <mxPoint x="30" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GB9RlgLRgatuVVAukmtW-53" value="校验通过" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="490" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
