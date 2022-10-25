@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T06:06:31.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="sJwK40AP6Xo8tdCAgwGd" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T08:10:39.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="f40cv8isJkHs6GCtzbFK" version="20.4.0" type="github">
   <diagram id="p1AXJYc_SpONw6VFGxzo" name="第 1 页">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -245,6 +245,51 @@
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-10" value="mac/gsfid/uuid有一个不同则修改不成功，只能修改该批次下的设备，endUser将返回修改不成功的设备集合" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="2580" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-11" target="ehhJM1RL-bTGxjUs8TGh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-11" value="brand operator进入crm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="3080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-12" target="ehhJM1RL-bTGxjUs8TGh-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-12" value="预付费操作（添加设备、更新设备、开户、更新订阅、销户、解锁订单...）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="3220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-16" target="ehhJM1RL-bTGxjUs8TGh-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-16" value="brand operator进入crm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="3080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-17" target="ehhJM1RL-bTGxjUs8TGh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-17" value="导入excel(添加批次、更改设备、创建解锁订单)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="3220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-19" target="ehhJM1RL-bTGxjUs8TGh-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-19" value="开启异步任务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="3360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-21" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="3500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-23" target="ehhJM1RL-bTGxjUs8TGh-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-23" value="像goose_crm_pre_paid_log新增一条行为记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="3360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-25" value="像goose_crm_pre_paid_log_detail表中新增所有设备成功|失败日记记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="3500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-27" value="brand operator进入crm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="3760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
