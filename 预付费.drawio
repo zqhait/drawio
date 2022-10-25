@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T00:42:21.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="cIxHz048Ra3Wc370DcQQ" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T06:06:31.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="sJwK40AP6Xo8tdCAgwGd" version="20.4.0" type="github">
   <diagram id="p1AXJYc_SpONw6VFGxzo" name="第 1 页">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-121" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" parent="GB9RlgLRgatuVVAukmtW-120" vertex="1" connectable="0">
           <mxGeometry x="0.08" y="-1" relative="1" as="geometry">
-            <mxPoint y="90" as="offset" />
+            <mxPoint x="1" y="149" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-91" value="校验成功" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -196,23 +196,23 @@
           <mxGeometry x="340" y="2540" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-104" value="end" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="340" y="2880" width="80" height="80" as="geometry" />
+          <mxGeometry x="340" y="2790" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="1" source="GB9RlgLRgatuVVAukmtW-113" target="GB9RlgLRgatuVVAukmtW-104" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-113" value="添加日志（将返回的更新失败的设备标注为失败，其它为成功）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="2780" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="2690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="1" source="GB9RlgLRgatuVVAukmtW-116" target="GB9RlgLRgatuVVAukmtW-104" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="220" y="2920" />
+              <mxPoint x="220" y="2830" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-116" value="添加日志（所有设备标注为失败）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="2780" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="2690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="1" source="GB9RlgLRgatuVVAukmtW-122" target="GB9RlgLRgatuVVAukmtW-24" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -221,7 +221,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GB9RlgLRgatuVVAukmtW-122" value="添加操作日志" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="GB9RlgLRgatuVVAukmtW-122" value="添加日志" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="1" source="GB9RlgLRgatuVVAukmtW-127" target="GB9RlgLRgatuVVAukmtW-122" edge="1">
@@ -237,11 +237,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-1" value="添加任务失败日志" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1060" width="120" height="60" as="geometry" />
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-1" value="添加日志" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB9RlgLRgatuVVAukmtW-14" value="调用endUser接口，生成设备（mac,vendor）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-10" value="mac/gsfid/uuid有一个不同则修改不成功，只能修改该批次下的设备，endUser将返回修改不成功的设备集合" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="2580" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
