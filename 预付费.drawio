@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T01:13:51.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="J-43GID7xyc4FiM0zuY1" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T01:44:37.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Yg5uOSHbRxCqTnlx9-01" version="20.4.0" type="github">
   <diagram id="p1AXJYc_SpONw6VFGxzo" name="第 1 页">
-    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -324,6 +324,18 @@
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-43" value="导出日志详情excel" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="4350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-46" value="SELECT * FROM goose_crm_pre_paid_log WHERE brand_id = {};" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="4125" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-47" value="&lt;div&gt;SELECT * FROM goose_crm_pre_paid_log a INNER JOIN goose_crm_pre_paid_log_detail b ON a.id = b.log_id WHERE b.batch_id = {} and a.brand_id = {};&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="4105" width="410" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-48" value="&lt;div&gt;SELECT * FROM goose_crm_pre_paid_log_detail WHERE log_id = {};&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="4220" width="390" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-49" value="SELECT * FROM goose_crm_pre_paid_log_detail WHERE log_id = {} and batch_id = {};" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="4250" width="550" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
