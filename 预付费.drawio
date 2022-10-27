@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T03:27:38.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Lq6e4BQDryLEBlkCkvde" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T05:32:19.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="FXauspvcLfIpAvZP56JM" version="20.4.0" type="github">
   <diagram id="p1AXJYc_SpONw6VFGxzo" name="第 1 页">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -249,23 +249,23 @@
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-11" target="ehhJM1RL-bTGxjUs8TGh-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-11" value="brand operator进入crm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="3080" width="120" height="60" as="geometry" />
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-11" value="brand operator进入crm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="310" y="3080" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-12" target="ehhJM1RL-bTGxjUs8TGh-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-12" value="预付费操作（添加设备、更新设备、开户、更新订阅、销户、解锁订单...）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="3220" width="120" height="60" as="geometry" />
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-12" value="预付费操作（添加设备、更新设备、开户、更新订阅、销户、解锁订单...）" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="310" y="3220" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-23" target="ehhJM1RL-bTGxjUs8TGh-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-23" value="像goose_crm_pre_paid_log新增一条行为记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="3360" width="120" height="60" as="geometry" />
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-23" value="像goose_crm_pre_paid_log新增一条行为记录" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="310" y="3360" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-25" value="像goose_crm_pre_paid_log_detail表中新增所有设备成功|失败日记记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="3500" width="120" height="60" as="geometry" />
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-25" value="像goose_crm_pre_paid_log_detail表中新增所有设备成功|失败日记记录" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="315" y="3500" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-27" target="ehhJM1RL-bTGxjUs8TGh-28">
           <mxGeometry relative="1" as="geometry" />
@@ -299,7 +299,7 @@
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-33" target="ehhJM1RL-bTGxjUs8TGh-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-33" value="查询行为日志" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-33" value="查询行为日志" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="180" y="4110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-34" target="ehhJM1RL-bTGxjUs8TGh-36">
@@ -319,10 +319,10 @@
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-36" target="ehhJM1RL-bTGxjUs8TGh-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-36" value="查询行为日志详情" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-36" value="查询行为日志详情" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="414" y="4230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-43" value="导出日志详情excel" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-43" value="导出日志详情excel" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="280" y="4350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-46" value="SELECT * FROM goose_crm_pre_paid_log WHERE brand_id = {};" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -413,7 +413,7 @@
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-67" target="ehhJM1RL-bTGxjUs8TGh-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-67" value="DAC 设置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-67" value="DAC 设置" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="260" y="5510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-69" target="ehhJM1RL-bTGxjUs8TGh-72">
@@ -424,22 +424,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-69" value="brand级别全局设置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-69" value="brand级别全局设置" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="160" y="5630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-70" target="ehhJM1RL-bTGxjUs8TGh-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-70" value="设备单个设置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-70" value="设置单个设备" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="380" y="5630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-72" target="ehhJM1RL-bTGxjUs8TGh-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-72" value="调用endUser接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-72" value="调用endUser接口" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="270" y="5870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-75" value="endUser从库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-75" value="endUser从库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="590" y="5750" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-77" target="ehhJM1RL-bTGxjUs8TGh-75">
@@ -453,10 +453,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-77" value="查询设备拒绝日志" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-77" value="查询设备拒绝日志" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="380" y="5750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-82" value="更改DAC设置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-82" value="更改DAC设置" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="270" y="6010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-87" target="ehhJM1RL-bTGxjUs8TGh-90">
@@ -594,6 +594,42 @@
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-132" value="添加日志" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="319" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-135" value="brand operator进入crm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="260" y="5370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-136" value="brand operator进入crm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="3760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-137" value="查询日志" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="3900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-138" value="brand级别的日志查询" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="4000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-139" value="batch级别的日志查询" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="4000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-140" value="查询行为日志" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="4110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-141" value="brand operator进入crm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="300" y="3760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-142" value="查询日志" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="300" y="3900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-143" value="brand级别的日志查询" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="180" y="4000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-144" value="batch级别的日志查询" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="414" y="4000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-145" value="查询行为日志" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="414" y="4110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-146" value="查询行为日志详情" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="180" y="4230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
