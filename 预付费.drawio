@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T01:24:52.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="gBDDU10PwSUkpvtnhVLS" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T01:27:34.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0Fi2B0OVIAGPMML-F4ZZ" version="20.4.0" type="github">
   <diagram id="p1AXJYc_SpONw6VFGxzo" name="第 1 页">
     <mxGraphModel dx="2249" dy="3100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -486,13 +486,13 @@
           <mxGeometry x="660" y="-1850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-98" value="vendor管理" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-61" y="-2000" width="120" height="60" as="geometry" />
+          <mxGeometry x="-51" y="-2120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-99" value="dac设置" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="117" y="-2000" width="120" height="60" as="geometry" />
+          <mxGeometry x="127" y="-2120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-100" value="操作日志" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="280" y="-2000" width="120" height="60" as="geometry" />
+          <mxGeometry x="290" y="-2120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-103" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-92" target="ehhJM1RL-bTGxjUs8TGh-90">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -519,8 +519,8 @@
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-108" value="创建解锁订单" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="414" y="-1740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ehhJM1RL-bTGxjUs8TGh-109" value="销户" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="425" y="-1910" width="120" height="60" as="geometry" />
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-109" value="销户" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-2010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehhJM1RL-bTGxjUs8TGh-116" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ehhJM1RL-bTGxjUs8TGh-96" target="ehhJM1RL-bTGxjUs8TGh-108">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -754,6 +754,9 @@
           <mxGeometry x="-0.0625" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ehhJM1RL-bTGxjUs8TGh-200" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-2180" width="97.5" height="542.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
